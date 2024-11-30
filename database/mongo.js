@@ -7,7 +7,7 @@ const uri = process.env.MONGO_URI; // URI de la base de datos (e.g., MongoDB Atl
 const connectDb = async () => {
   try {
     await mongoose.connect(uri);
-    console.log('Conexión exitosa a la base de datos notubeyet');
+    console.log('Conexión exitosa a la base de datos reply');
 
     // Eventos de la conexión
     mongoose.connection.on('disconnected', () => {

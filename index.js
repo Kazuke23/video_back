@@ -28,7 +28,7 @@ app.get('/favicon.ico', (req, res) => res.status(204).end());
 
 // Manejador para la ruta raíz
 app.get('/', (req, res) => {
-    res.send('Bienvenido al backend de NotubeYet!');
+    res.send('Bienvenido al backend de Reply!');
 });
 
 // Utiliza las rutas del sistema

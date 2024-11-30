@@ -26,6 +26,6 @@ const videoSchema = new mongoose.Schema({
 const Video = mongoose.model('Video', videoSchema);
 
 // Establecer la base de datos directamente
-Video.db = mongoose.connection.useDb('notubeyet');
+Video.db = mongoose.connection.useDb('reply');
 
 module.exports = Video;
